@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ezoj</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">ezoj.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="mountain slide">
+        <div class="hero-img">
+          <img src="./img/itsezoj.png" alt="ezoj image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Hi there I'm <span class="ezoj-span">Joselito.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+            I'm a fresh college graduate of the BS Computer Engineering program. 
+            I created this website to have hands-on experience in web development and to 
+            get familiar with Javascript programming and libraries.
+          </p>
+          <a href="./about/index.html" class="explore mountain-exp">About me.</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="work slide">
+        <div class="hero-img">
+          <img src="./img/work.png" alt="work image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>My works and <span class="work-span">projects.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            Here is a sample of my works section to showcase my portfolio.
+          </p>
+          <a class="explore work-exp">Learn more.</a>
+          <div class="reveal-text"></div>
+        </div>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3><a href="https://www.facebook.com/Jozeraitsu/" target="_blank">Facebook</a></h3>
+        <h3><a href="https://twitter.com/kurama_shiro" target="_blank">Twitter</a></h3>
+        <h3><a href="https://www.instagram.com/chessekimbap_26/?hl=en" target="_blank">Instragram</a></h3>
+
+      </ul>
+      <div class="contact">
+        <h2>Stay in touch.</h2>
+        <p>
+          This website is currently under construction. You can send me a private message on my social media accounts. Stay tuned
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
